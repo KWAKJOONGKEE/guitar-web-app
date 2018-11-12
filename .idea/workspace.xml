@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2811f57-44ad-4182-97fb-1585816fc6b2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guitarWebApp/.idea/guitarWebApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guitarWebApp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guitarWebApp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guitarWebApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guitarWebApp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,6 +17,7 @@
     <session id="-1415169986">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -133,12 +129,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541987834827</updated>
-      <workItem from="1541987837238" duration="1640000" />
+      <workItem from="1541987837238" duration="1641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1640000" />
+    <option name="totallyTimeSpent" value="1641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
