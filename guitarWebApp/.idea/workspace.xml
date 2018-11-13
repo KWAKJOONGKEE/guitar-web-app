@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43736684-3702-4290-95f7-5d85fbd33eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../html5api/02drag_drop/simple_dragdrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html5api/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5api/03file/files_property.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5api/03file/progress.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML5Source/ch04/ex405_reserve.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML5Source/ch04/ex405_reserve.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML5Source/ch04/ex406_datalist.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML5Source/ch04/ex406_datalist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../html5api/01webstorage/local_session_storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html5api/01webstorage/local_session_storage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html5api/15.fileDnD.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html5api/15.fileDnD.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -187,7 +185,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="858" />
     <option name="y" value="77" />
     <option name="width" value="1004" />
@@ -275,7 +273,7 @@
       <option name="presentableId" value="Default" />
       <updated>1541988859412</updated>
       <workItem from="1541988860875" duration="20216000" />
-      <workItem from="1542068034013" duration="2303000" />
+      <workItem from="1542068034013" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="첫번째 COMMIT">
       <created>1541989748410</created>
@@ -323,10 +321,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22519000" />
+    <option name="totallyTimeSpent" value="22611000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12802951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

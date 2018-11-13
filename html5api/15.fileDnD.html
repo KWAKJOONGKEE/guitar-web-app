@@ -33,6 +33,7 @@ div {
 			}
 
 			var reader = new FileReader();
+
 			reader.onload = function() {
 				if (isImage) {
 					img.src = reader.result;
@@ -41,6 +42,7 @@ div {
 					dropZone.innerHTML = reader.result;
 				}
 			};
+
 			if (isImage) {
 				reader.readAsDataURL(file);
 			} else {
