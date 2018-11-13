@@ -17,6 +17,14 @@
         window.onload = function () {
             view();
         }
+        function save_session() {
+            if(!sessionStorage.getItem("name")){
+                sessionStorage.setItem("name", document.getElementById("nameInput").value);
+            }
+            else{
+                sessionStorage.setItem("name", document.getElementById("nameInput").value);
+            }
+        }
         function save(){
             var emailInput = document.getElementById("emailInput");
             //localStorage에 email 키를 가진 값이 없으면
@@ -26,6 +34,16 @@
                 emailInput.value = '';
                 view();
             }
+            else{
+                /* localStorage에 email 키를 가진 값이 있으면 */
+                var msg = "저장된 값 " + localStorage.getItem("email") + " 수정하시겠습니까?"
+                var flag = confirm(msg);
+                if(flag){
+                    localStorage.setItem("email", emailInput.value);
+                    document.getElementById("emailInput").value = "";
+                    view();
+                }
+            }
         }
         function view() {
             if(localStorage.getItem("email")){
@@ -33,8 +51,12 @@
             }
         }
         function remove() {
-            if(localStorage.getItem("email")){
+            var msg = "저장된 값 " + localStorage.getItem("email") + "을 삭제하시겠습니까?";
+            var flag = confirm(msg);
+            if(flag){
                 localStorage.removeItem("email");
+                document.getElementById("emailSpan").innerHTML = "";
+                document.getElementById("emailInput").value = "";
             }
         }
     </script>
@@ -42,7 +64,9 @@
 <body>
     <h1>Web Storage</h1>
     Email 주소 입력: <input type="email" id="emailInput"> <br/>
-    <button onclick="save()">저장</button>
+    <button onclick="save()">저장</button> <br/>
+    Name 입력 : <input type="text" id="nameInput">
+    <button onclick="save_session()">세션에 저장</button>
     <hr>
     Email 주소 보기 : <span id="emailSpan"></span>
     <button onclick="view()">보기</button>

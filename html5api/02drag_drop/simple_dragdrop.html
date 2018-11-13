@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #dropDiv{
+            border: 2px solid black;
+            width: 300px;
+            height:200px;
+        }
+        #statusSpan{
+            border: 2px solid black;
+            width: 100px;
+            height:50px;
+        }
+    </style>
+    <script>
+        function start(ev){
+            document.getElementById("dragDiv").addEventListener("drag",move);
+            document.getElementById("dragImg").addEventListener("drag",move);
+            document.getElementById("dropDiv").addEventListener("dragover",over);
+            document.getElementById("dropDiv").addEventListener("drop",drop);
+        }
+        var mySpan;
+        function move(ev) {
+            mySpan = document.getElementById("statusSpan");
+            mySpan.innerHTML = "X축 :" + ev.x + "Y축 :" + ev.y;
+            console.log(mySpan.innerHTML);
+        }
+        function over(ev) {
+            /*default event가 동작되지 않도록*/
+            ev.preventDefault();
+            mySpan.innerHTML = "Over 되었습니다.";
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            mySpan.innerHTML = "drop 성공";
+        }
+    </script>
+</head>
+<body>
+    <h1>Drag & Drop</h1>
+    <div draggable="true" id="dragDiv" ondragstart="start(event)">
+        드래그 & 드랍
+    </div><br/>
+    <img draggable="true" id="dragImg" src="html.png" ondragstart="start(event)"/><br/>
+    <span id="statusSpan"></span><br/>
+    <div dropzone="copy" id="dropDiv"></div>
+</body>
+</html>
