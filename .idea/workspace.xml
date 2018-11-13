@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2811f57-44ad-4182-97fb-1585816fc6b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html5api/03file/files_property.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5api/03file/progress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5api/04svg/myvector.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5api/04svg/simple_svg01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5api/05websocket/websocket_client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/myserver.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guitarWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html5api/15.fileDnD.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5api/15.fileDnD.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,29 +29,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="26" />
+          <entry key="html" value="28" />
+          <entry key="js" value="4" />
+          <entry key="json" value="1" />
           <entry key="png" value="2" />
           <entry key="svg" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="26" />
+          <entry key="HTML" value="28" />
           <entry key="Image" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="4" />
           <entry key="SVG" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="4990" />
+          <entry key="js" value="536" />
           <entry key="svg" value="138" />
-          <entry key="txt" value="20" />
+          <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="4990" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="JavaScript" value="536" />
+          <entry key="PLAIN_TEXT" value="35" />
           <entry key="SVG" value="138" />
         </counts>
       </usages-collector>
@@ -68,11 +68,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5api/05websocket/websocket_client.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/ws.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5api/07websockets-client_edu/app.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5api/07websockets-client_edu/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/myserver.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/ws.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -83,6 +146,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -110,6 +174,8 @@
         <option value="$PROJECT_DIR$/html5api/04svg/myvector.svg" />
         <option value="$PROJECT_DIR$/html5api/04svg/simple_svg01.html" />
         <option value="$PROJECT_DIR$/html5api/05websocket/websocket_client.html" />
+        <option value="$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/myserver.js" />
+        <option value="$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/ws.js" />
       </list>
     </option>
   </component>
@@ -119,8 +185,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/package.json" />
       <path value="$PROJECT_DIR$/html5api/package.json" />
     </packageJsonPaths>
   </component>
@@ -158,6 +228,18 @@
             <path>
               <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="html5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="html5api" type="462c0819:PsiDirectoryNode" />
+              <item name="07websockets-client_edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="html5api" type="462c0819:PsiDirectoryNode" />
+              <item name="08nodejs-websocket-server_edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5_api" type="462c0819:PsiDirectoryNode" />
               <item name="HTML5Source" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -173,6 +255,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -192,14 +275,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.websocket_client.html">
-    <configuration name="15.fileDnD.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/15.fileDnD.html">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="files_property.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/03file/files_property.html">
       <method v="2" />
     </configuration>
-    <configuration name="progress.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/03file/progress.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/07websockets-client_edu/index.html">
       <method v="2" />
     </configuration>
     <configuration name="simple_svg01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/04svg/simple_svg01.html">
@@ -208,20 +288,23 @@
     <configuration name="websocket_client.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/05websocket/websocket_client.html">
       <method v="2" />
     </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/html5api/07websockets-client_edu">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.files_property.html" />
-      <item itemvalue="JavaScript Debug.15.fileDnD.html" />
-      <item itemvalue="JavaScript Debug.progress.html" />
       <item itemvalue="JavaScript Debug.simple_svg01.html" />
       <item itemvalue="JavaScript Debug.websocket_client.html" />
+      <item itemvalue="Node.js.app.js" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.app.js" />
         <item itemvalue="JavaScript Debug.websocket_client.html" />
         <item itemvalue="JavaScript Debug.simple_svg01.html" />
         <item itemvalue="JavaScript Debug.files_property.html" />
-        <item itemvalue="JavaScript Debug.progress.html" />
-        <item itemvalue="JavaScript Debug.15.fileDnD.html" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +320,7 @@
       <updated>1541987834827</updated>
       <workItem from="1541987837238" duration="1641000" />
       <workItem from="1542068352856" duration="12762000" />
-      <workItem from="1542083696067" duration="8895000" />
+      <workItem from="1542083696067" duration="12038000" />
     </task>
     <task id="LOCAL-00001" summary="localstorage 처리추가">
       <created>1542072617520</created>
@@ -260,11 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542084238619</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SOCKET 통신 실습예제">
+      <created>1542092942493</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542092942493</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23298000" />
+    <option name="totallyTimeSpent" value="26441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,19 +369,19 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32982087" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -307,7 +397,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="localstorage 처리추가" />
     <MESSAGE value="localstorage 처리추가2" />
-    <option name="LAST_COMMIT_MESSAGE" value="localstorage 처리추가2" />
+    <MESSAGE value="SOCKET 통신 실습예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOCKET 통신 실습예제" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html5api/01.canvas_draw.html">
@@ -455,8 +546,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5api/05websocket/websocket_client.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/ws.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/myserver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/ws.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/07websockets-client_edu/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/07websockets-client_edu/app.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
